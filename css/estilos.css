@@ -13,6 +13,25 @@
 
 }
 
+#carruselActividades .carousel-control-prev{
+    width: 5%;
+}
+
+#carruselActividades .carousel-control-next{
+    width: 5%;
+}
+
+.carousel-control-prev-icon{
+    background-color: #d63384;
+    padding: 20px;
+    border-radius: 5px;
+}
+.carousel-control-next-icon{
+    background-color: #d63384;
+    padding: 20px;
+    border-radius: 5px;
+}
+
 #boton1{
     color: white;
 }
