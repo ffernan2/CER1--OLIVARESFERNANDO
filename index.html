@@ -11,19 +11,23 @@
 </head>
 <body>
     <header>
-        <h1 class="text-center">Centro Cultural Puerto Abierto</h1>
+        <h1 class="text-center">
+          <a href="index.html" style="text-decoration: none; color: inherit;">
+            Centro Cultural Puerto Abierto
+        </a>
+        </h1>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Puerto Abierto</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#">Pricing</a>
-        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+      <div class="navbar-nav mx-auto">
+        <a class="nav-link active" aria-current="page" href="cartelera.html">Cartelera</a>
+        <a class="nav-link active" href="inscripcion.html">Inscripciones</a>
+        <a class="nav-link active" href="#quienesSomos">Quienes somos</a>
+        <a class="nav-link active" href="#contacto">Contacto</a>
       </div>
     </div>
   </div>
@@ -33,8 +37,8 @@
         </nav>
     </header>
     <main class="position-relative">
-      <section>
-                <h1>¡Bienvenido/a al Centro Cultural Puerto Abierto!</h1>
+      <section class="bg-primary text-white text-center">
+        <h1>¡Bienvenido/a al Centro Cultural Puerto Abierto!</h1>
       </section>
 
 
@@ -102,7 +106,7 @@
         </section>
 
 
-        <section class="container mt-5">
+        <section class="container mt-5" id="quienesSomos">
           <div class="row ">
             <div class="col-md-6 " >
               <img id="imagenCentro" src="https://www.lanacion.com.py/resizer/v2/MTJZC53JJ5AXZAXVRYKGVZLNN4.jpg?auth=47400bfd07b74eb97dbb3603b01387b907ee2184590b1e856a71f90ffea0d4af&width=900&smart=true" alt="foto centro cultural">
@@ -150,7 +154,7 @@
         </section>
     </main>
 
-    <footer class="bg-dark text-start py-4  mt-auto">
+    <footer class="bg-dark text-start py-4  mt-auto" id="contacto">
         <div class="container text-light">
           <h5>Estamos ubicados en Calle Puerto Abierto 6483. Valparaiso, Chile</h5>
           <h5>Contacto: +56 2 1234 5678</h5>
