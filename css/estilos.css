@@ -35,3 +35,14 @@
 #boton1{
     color: white;
 }
+
+.boton-flotante {
+    position: fixed; 
+    bottom: 30px; 
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    width: 130px;
+    text-align: center;    
+    z-index: 10;   
+    color: white;
+}
