@@ -7,3 +7,12 @@
     width: 100%;
     object-fit: cover;
 }
+
+#imagenCentro{
+    max-width: 90vh;
+
+}
+
+#boton1{
+    color: white;
+}
