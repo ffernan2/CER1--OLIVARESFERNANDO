@@ -1,3 +1,4 @@
+/* actvidades destacadas */
 .card{
     margin-bottom: 20px;
 }
@@ -8,30 +9,35 @@
     object-fit: cover;
 }
 
+/* quienes somos */
 #imagenCentro{
     max-width: 90vh;
-
 }
 
-#carruselActividades .carousel-control-prev{
+/* carrusel */
+/* altura principal */
+#carruselActividades .carousel-inner {
+    height: 500px;
+}
+
+#carruselActividades .carousel-item {
+    height: 100%;
+}
+
+/* ancho flechas */
+#carruselActividades .carousel-control-prev, #carruselActividades .carousel-control-next{
     width: 5%;
 }
 
-#carruselActividades .carousel-control-next{
-    width: 5%;
-}
-
-.carousel-control-prev-icon{
+/* agrupo las flechas */
+.carousel-control-prev-icon, .carousel-control-next-icon{
     background-color: blue;
     padding: 20px;
     border-radius: 5px;
 }
-.carousel-control-next-icon{
-    background-color: blue;
-    padding: 20px;
-    border-radius: 5px;
-}
 
+
+/* botones */
 #boton1{
     color: white;
 }
