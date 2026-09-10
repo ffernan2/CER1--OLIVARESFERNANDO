@@ -17,7 +17,7 @@
             <img src="/img/logo.png" alt="imagen logo" width="300">
         </a>
         </h1>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark"  data-bs-theme="dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.html">Puerto Abierto</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,69 +38,79 @@
         </nav>
     </header>
 
-    <section>
-        <h3 class="text-center">Inscripción a actividades</h3>
+    <main class="container mt-5">
+        <h3 class="text-center">Inscripción de actividades</h3>
 
-        <form action="#">
-            <!--Pedir nombre-->
-            <div class="mb-3">
-                <label for="nombre" class="form-label">Nombre Completo: </label>
-                <input type="text" class="form-control" id="nombre" required>
-            </div>
+        <div class="card shadow p-4">
+            <form>
+                <!--Pedir nombre-->
+                <div class="row mb-3">
+                    <label for="nombre" class="form-label">Nombre Completo: </label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
 
-            <!--Pedir correo-->
-            <div class="mb-3">
-                <label for="correo" class="form-label">E-Mail: </label>
-                <input type="text" class="form-control" id="correo" required>
-            </div>
+                <!--Pedir correo-->
+                <div class="row mb-3">
+                    <label for="correo" class="form-label">E-Mail: </label>
+                    <input type="text" class="form-control" id="correo" required>
+                </div>
 
-            <!--Pedir Telefono-->
-            <div class="mb-3">
-                <label for="telefono" class="form-label">Numero Telefonico: </label>
-                <input type="text" class="form-control" id="telefono" required>
-            </div>
+                <!--Pedir Telefono-->
+                <div class="row mb-3">
+                    <label for="telefono" class="form-label">Numero Telefonico: </label>
+                    <input type="text" class="form-control" id="telefono" required>
+                </div>
 
-            <!--Pedir Actividad de interes-->
-            <div class="mb-3">
-                <label for="actividad" class="form-label">Actividad de interes: </label>
-                <select class="form-select" id="actividad" required>
-                    <option value="" >Escoja una opcion:</option>
-                    <option value="" >Taller de cueca </option>
-                    <option value="" >Taller de greda </option>
-                    <option value="" >Exposicion de pinturas chilenas </option>
-                    <option value="" >Feria de emprendedores </option>
-                    <option value="" >Taller de mosaico </option>
-                    <option value="" >Charla sobre IA </option>
-                    <option value="" >Feria del libro </option>
-                    <option value="" >Festival de Musica </option>
-                </select>
-            </div>
+                <!--Pedir Actividad de interes-->
+                <div class="row mb-3">
+                    <label for="actividad" class="form-label">Actividad de interes: </label>
+                    <select class="form-select" id="actividad" required>
+                        <option value="" >Escoja una opcion:</option>
+                        <option value="" >Taller de cueca </option>
+                        <option value="" >Taller de greda </option>
+                        <option value="" >Exposicion de pinturas chilenas </option>
+                        <option value="" >Feria de emprendedores </option>
+                        <option value="" >Taller de mosaico </option>
+                        <option value="" >Charla sobre IA </option>
+                        <option value="" >Feria del libro </option>
+                        <option value="" >Festival de Musica </option>
+                    </select>
+                </div>
 
-            <!--Pedir Edad-->
-            <div class="mb-3">
-                <label for="edad" class="form-label">Edad: </label>
-                <input type="text" class="form-control" id="edad" required>
-            </div>
+                <!--Pedir Edad-->
+                <div class="row mb-3">
+                    <label for="edad" class="form-label">Edad: </label>
+                    <input type="text" class="form-control" id="edad" required>
+                </div>
 
-            <!--Pedir Comentarios adicionales-->
-            <div class="mb-3">
-                <label for="correo" class="form-label">Comentarios adicionales: </label>
-                <textarea type="text" class="form-control" id="correo"></textarea>
-            </div>
+                <!--Pedir Comentarios adicionales-->
+                <div class="row mb-3">
+                    <label for="correo" class="form-label">Comentarios adicionales: </label>
+                    <textarea type="text" class="form-control" id="correo"></textarea>
+                </div>
 
-            <!--Aceptar Terminos y condiciones-->
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="terminos" required>
-                <label for="condiciones" class="form-check-label">Acepto los Terminos y condiciones</label>
-            </div>
+                <!--Aceptar Terminos y condiciones-->
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="terminos" required>
+                    <label for="condiciones" class="form-check-label">Acepto los Terminos y condiciones</label>
+                </div>
 
-            <!--Boton-->
-            <button type="enviar" class="btn btn-primary">Enviar Inscripcion</button>
+                <!--Boton-->
+                <button type="enviar" class="btn btn-primary">Enviar Inscripcion</button>
 
             
-        </form>
-    </section>
+            </form>
+        </div>
+    </main>
 
+    <footer class="bg-dark text-start py-4  mt-auto" id="contacto">
+        <div class="container text-light">
+          <h5>Estamos ubicados en Calle Puerto Abierto 6483. Valparaiso, Chile</h5>
+          <h5>Contacto: +56 2 1234 5678</h5>
+          <h5>E-Mail: fundacion@culturapuertoabierto.cl</h5>
+
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
